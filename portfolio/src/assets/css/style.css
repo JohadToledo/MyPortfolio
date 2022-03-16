@@ -1,9 +1,12 @@
 body{
     background: #303F9F;
 }
-header{
-    height: 70px;
+.header{
+ background-color: #0c0c0c;
+ height: 70px;
+ color:#fff;
 }
+
 .header_log{
     background-color:transparent ;
     border-radius: 60%;
@@ -19,6 +22,7 @@ header{
     font-size: 25px;
     margin-right: 20px;
     padding: 20px;
+    color: black;
     color: #999;
 }
 .center{
