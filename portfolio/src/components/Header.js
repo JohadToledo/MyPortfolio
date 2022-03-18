@@ -2,9 +2,8 @@ import React from "react";
 import logo from "../assets/statics/JT-logo.png";
 import linkedin from "../assets/statics/linkedin.svg";
 import github from "../assets/statics/github.svg";
-import "../assets/css/Header.css";
+import "../assets/css/style.css";
 import { Link } from "react-router-dom";
-import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
