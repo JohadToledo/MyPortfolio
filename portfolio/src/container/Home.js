@@ -1,11 +1,13 @@
 import React from "react";
 import "../assets/css/style.css";
+import Projects from "./Projects";
 
 export default function Home() {
   return (
-    <section className='content hero space100'>
+    <>
+    <section className='hero'>
       <div className="container">
-        <div className="row space50">
+        <div className="row space50 content-hero">
           <div className="col-md-8">
             <h1>Hey! I am Johad</h1>
             <h2>
@@ -20,15 +22,10 @@ export default function Home() {
           <div className="col-md-6 offset-md-3">
             A Junior Web Developer, who is starting his journey so eagerly
           </div>
-          <div className="button center mediumspace">
-            <button type="" className="btn btn-lg">
-              <a href="contact.html">
-                <strong>Contact</strong>
-              </a>
-            </button>
-          </div>
         </div>
       </div>
     </section>
+    <Projects />
+    </>
   );
 }

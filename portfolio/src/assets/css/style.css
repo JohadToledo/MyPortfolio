@@ -3,7 +3,7 @@ body {
   font-family: 'Lexend Deca', sans-serif;
 }
 .header {
-  height: 70px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   color: #0c0c0c;
@@ -29,6 +29,14 @@ body {
     margin-bottom: 100px;
 }
 
+.content-hero{
+    display: flex;
+    justify-content: center;
+}
+.content-hero h1, h2{
+    font-size: 3.5rem;
+}
+
 .header_log {
   background-color: transparent;
   border-radius: 60%;
@@ -36,6 +44,23 @@ body {
   width: 100px;
   filter: alpha(opacity=70);
 }
+
+.hero{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+section{
+    height: calc(100vh - 80px);
+    padding: 50px;
+}
+
+.projects h1{
+    font-size: 3.5rem;
+    color: #ffffff;
+}
+
 .media-list {
   float: right;
 }
@@ -50,10 +75,7 @@ body {
 .center {
   text-align: center;
 }
-.mediumspace {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
+
 .mipic {
   border-radius: 50%;
   width: 200px;
@@ -155,10 +177,7 @@ article {
 .sec4 .col-md-4 {
   padding-top: 100px;
 }
-footer {
-  color: #ffffff;
-  background: transparent;
-}
+
 .sec-contact h1 {
   font-size: 70px;
 }

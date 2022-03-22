@@ -3,6 +3,7 @@ import "../assets/css/style.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "../components/Layout";
 import Home from "../container/Home";
+import Projects from "../container/Projects";
 
 function App() {
   return (
