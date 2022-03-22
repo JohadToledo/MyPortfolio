@@ -1,5 +1,6 @@
 body {
   background: #303f9f;
+  font-family: 'Lexend Deca', sans-serif;
 }
 .header {
   height: 70px;
@@ -8,14 +9,24 @@ body {
   color: #0c0c0c;
 }
 .logoHeader {
-  width: 36px;
+  width: 75px;
   padding: 10px;
   margin-top: 10px;
   margin-right: 20px;
 }
 
 .jtlogo {
-  width: 70px;
+  width: 100px;
+}
+
+.space50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.space100{
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .header_log {
@@ -38,10 +49,6 @@ body {
 }
 .center {
   text-align: center;
-}
-.space {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 .mediumspace {
   padding-top: 40px;
