@@ -10,10 +10,20 @@ export default function Projects() {
                         <div className="row space center">
                             <h1 className="title"><b className="underline">Projects</b></h1>
                         </div>
-                        <div className="row center">
+                        <div className="row center project-list space50">
                             <div className="col-md-10">
                                 <div className="row">
-                                    
+                                    <div className="cuadradonegro">
+
+                                    </div>
+                                    <br />
+                                    <div className="cuadradonegro">
+
+                                    </div>
+                                    <br />
+                                    <div className="cuadradonegro">
+
+                                    </div>
 
                                 </div>
                             </div>
