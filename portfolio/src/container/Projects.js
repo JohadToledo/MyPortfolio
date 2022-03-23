@@ -1,5 +1,6 @@
 import React from 'react'
 import "../assets/css/style.css";
+import ProjectItem from './ProjectItem';
 
 
 export default function Projects() {
@@ -13,9 +14,7 @@ export default function Projects() {
                         <div className="row center project-list space50">
                             <div className="col-md-10">
                                 <div className="row">
-                                    <div className="cuadradonegro">
-
-                                    </div>
+                                    <ProjectItem />
                                     <br />
                                     <div className="cuadradonegro">
 

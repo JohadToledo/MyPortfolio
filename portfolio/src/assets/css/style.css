@@ -71,9 +71,19 @@ section{
     background-color: #838282;
     border: 1px solid #838282;
     border-radius: 5px;
-    height: 170px;
+    height: 250px;
     margin-bottom: 50px;
+}
 
+.project-item{
+    display: flex;
+    align-items: center;
+
+}
+
+.img-project{
+    width: 200px;
+    margin: 5px;
 }
 
 .media-list {
